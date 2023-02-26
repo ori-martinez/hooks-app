@@ -12,6 +12,7 @@ import './index.css';
 ReactDOM.createRoot(document.getElementById('root')).render(
     <BrowserRouter>
         {/* <React.StrictMode> */}
+            {/* <HooksApp /> */}
             <MainApp />
         {/* </React.StrictMode> */}
     </BrowserRouter>

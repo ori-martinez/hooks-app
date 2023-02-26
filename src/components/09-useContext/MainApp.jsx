@@ -13,6 +13,11 @@ const mainTitleStyle = "p-2 mt-8 text-center text-4xl font-bold";
 /* Separador */
 const hrStyle = " mx-auto my-6 w-4/5 h-1 bg-cyan-400 border-0 rounded";
 
+/* __________________________________________________________________________________________________________
+
+TAREA: Realizar las pruebas sobre la página del Login (Login.test.jsx)
+__________________________________________________________________________________________________________ */
+
 // COMPONENTE
 /* Aplicación Principal */
 export const MainApp = () => {

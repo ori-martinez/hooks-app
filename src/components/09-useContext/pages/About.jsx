@@ -8,7 +8,7 @@ export const About = () => {
     return (
         <>
             {/* Título */}
-            <h1 className={ titleStyle }> About </h1>
+            <h2 className={ titleStyle }> About </h2>
         </>
     );
 }

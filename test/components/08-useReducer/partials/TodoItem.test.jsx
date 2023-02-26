@@ -87,7 +87,7 @@ describe('Pruebas del <TodoItem />', () => {
         expect(handleToggleTodoMock).toHaveBeenCalledWith(todo.id);
     });
     
-    // PRUEBA DE FUNCIONALIDAD DE LA FUNCION handleToggleTodo()
+    // PRUEBA DE FUNCIONALIDAD DE LA FUNCION handleDeleteTodo()
     test('El click del button en el componente debe llamar a la función handleDeleteTodo()', () => {
         /* Renderización del Componente */
         render(<TodoItem 

@@ -23,10 +23,13 @@ export const Login = () => {
     return (
         <>
             {/* Título */}
-            <h1 className={ titleStyle }> Login </h1>
+            <h2 className={ titleStyle }> Login </h2>
 
             {/* Contexto del Usuario */}
-            <pre className={ preStyle }>
+            <pre 
+                aria-label="pre"
+                className={ preStyle }
+            >
                 { JSON.stringify(user, null, 3) }
             </pre>
 

@@ -19,10 +19,13 @@ export const Home = () => {
     return (
         <>
             {/* Título */}
-            <h1 className={ titleStyle }> Home { user?.name } </h1>
+            <h2 className={ titleStyle }> Home { user?.name } </h2>
 
             {/* Contexto del Usuario */}
-            <pre className={ preStyle }>
+            <pre 
+                aria-label="pre"
+                className={ preStyle }
+            >
                 { JSON.stringify(user, null, 3) }
             </pre>
         </>
